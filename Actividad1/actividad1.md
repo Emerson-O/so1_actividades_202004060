@@ -30,7 +30,7 @@ Es una combinación de microkernel y arquitectura de kernel monolítico utilizad
 Un kernel híbrido también implementa algunos servicios menos críticos y controladores de dispositivos como módulos que se ejecutan en el espacio de usuario, siguiendo el enfoque del microkernel. Estos módulos o servicios en el espacio de usuario se comunican con el núcleo a través de interfaces bien definidas, como llamadas de sistema o mecanismos de IPC (comunicación interprocesos).
 
 ![](https://universodigital.org/wp-content/uploads/Kernel-hibrido.png)
-#### 1.2.4 ***Exonúcleo:*** 
+####  ***Exonúcleo:*** 
 El enfoque central de los exokernels es permitir que las aplicaciones decidan cómo utilizar los recursos del sistema sin la intervención de un kernel intermedio que aplique políticas de gestión o imponga abstracciones innecesarias. Para lograr esto, los exokernels ofrecen tres principales mecanismos para las aplicaciones:
 
 Los exokernel, la capa de exokernel, la capa de LibOS, y la capa de aplicaciones
@@ -58,7 +58,7 @@ Es un nivel de ejecución en un sistema operativo donde el kernel tiene acceso c
 
 ![](https://i0.wp.com/www.differencebetween.com/wp-content/uploads/2017/12/Difference-Between-User-Mode-and-Kernel-Mode-fig-1.png?resize=500%2C500&ssl=1) 
 
- ## 2.3 Tabla Comparativa
+ ##  Tabla Comparativa
  
  | Modo Usuario  | Modo Kernel  | 
 | :------------ |:---------------:| 
