@@ -1,0 +1,8 @@
+[Unit]
+Description= 202004060 Actividad 4 
+
+[Service]
+User=emerson
+ExecStart=/home/emerson/Escritorio/Sopes1/Magistral/Tareas/so1_actividades_202004060/Actividad4/script.sh
+WantedBy=multi-user.target
+
